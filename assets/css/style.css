@@ -1,16 +1,13 @@
 body {
+    background-image: url(backdrop.jpg);
     background-size: cover;
     background-color: black;
     color: white;
 }
 
 header {
-    background-color: black;
     color: white;
     height: 100px;
-    border-style: solid;
-    border-color: gray;
-    border-width: 1px;
 }
 
 h1 {
@@ -56,10 +53,16 @@ img {
     border-radius: 50%;
 }
 
-#linkedin {
-    color: gray;
+.vertical-links {
+    width: 100px;
 }
 
-#linkedin:hover {
+i {
+    color: gray;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+i:hover {
     color: white;
 }
