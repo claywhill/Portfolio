@@ -1,12 +1,12 @@
 body {
-    background-image: url(background.jpg);
+    background-size: cover;
     background-color: black;
     color: white;
 }
 
 header {
-    background-color: rgb(243, 78, 18);
-    color: black;
+    background-color: black;
+    color: white;
     height: 100px;
     border-style: solid;
     border-color: gray;
@@ -17,7 +17,7 @@ h1 {
     float: left;
     margin-left: 100px;
     line-height: 90px;
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -26,6 +26,7 @@ h2 {
 }
 
 nav {
+    display: block;
     float: right;
     margin-right: 20px;
     line-height: 90px;
@@ -38,7 +39,7 @@ a {
 }
 
 a:visited {
-    color: black;
+    color: gray;
 }
 
 a:hover {
@@ -46,4 +47,19 @@ a:hover {
     color: white;
 }
 
+img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
 
+#linkedin {
+    color: gray;
+}
+
+#linkedin:hover {
+    color: white;
+}
