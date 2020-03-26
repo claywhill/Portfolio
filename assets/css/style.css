@@ -26,7 +26,7 @@ h2 {
     margin-top: 15px;
     
 }
-
+/*****NAVBAR*****/
 nav {
     display: block;
     float: right;
@@ -53,10 +53,12 @@ a:hover {
     color: white;
 }
 
-a:active {
+a:enabled {
     color: white;
 }
+/**********/
 
+/*****HOMEPAGE*****/
 #profile {
     display: block;
     width: 35%;
@@ -68,10 +70,11 @@ a:active {
     border-width: 1px;
     border-color: black;
 }
+/**********/
 
 #vertical-links {
-    display: inline-block;
-    width: 50px;
+    position: absolute;
+    left: 0;
 }
 
 i {
@@ -80,10 +83,11 @@ i {
     margin-top: 15px;
 }
 
-i:hover {
+i:hover{
     color: white;
 }
 
+/*****ABOUT*****/
 #about {
     width: 800px;
     margin: auto;
@@ -92,7 +96,9 @@ i:hover {
     display: block;
     line-height: 25px;
 }
+/********/
 
+/*****CONTACT*****/
 #contact {
     width: 800px;
     margin: auto;
@@ -101,21 +107,32 @@ i:hover {
     display: block;
 }
 
-input {
+input, textarea{
+    background-color: rgb(27, 27, 27);
     width: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    height: 50px;
 }
 
 textarea {
-    background-color: rgb(66, 63, 63);
-    width: 100%;
-    margin-top: 5px;
-    border: none;
+    height: 180px;
 }
+
+input:focus, textarea:focus {
+    outline: none;
+    border-bottom: white;
+    border-bottom-style: solid;
+    border-width: .5px;
+}
+
+::placeholder {
+    color: gray;
+}
+
 .submit {
     width: 100px;
     color: white;
@@ -123,11 +140,18 @@ textarea {
     border-style: solid;
     border-width: 1px;
     border-color: white;
+    border-radius: 5px;
     padding: 10px;
     float: right;
     letter-spacing: 3px;
     font-size: 18px;
 }
+
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+/**********/
 
 footer {
     width: 100%;
