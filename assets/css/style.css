@@ -60,9 +60,6 @@ a:hover {
     color: white;
 }
 
-a:enabled {
-    color: white;
-}
 /**********/
 
 /*****HOMEPAGE*****/
@@ -99,6 +96,7 @@ i:hover{
     font-size: 20px;
     display: block;
     line-height: 25px;
+    text-align: center;
 }
 /********/
 
