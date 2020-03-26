@@ -117,6 +117,7 @@ input, textarea{
 
 textarea {
     height: 180px;
+    margin-bottom: 15px;
 }
 
 input:focus, textarea:focus {
@@ -142,11 +143,16 @@ input:focus, textarea:focus {
     float: right;
     letter-spacing: 3px;
     font-size: 18px;
+    margin-top: 0px;
 }
 
 .submit:hover {
     background-color: white;
     color: black;
+}
+
+.contactme {
+    line-height: 25px;
 }
 /**********/
 
