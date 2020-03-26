@@ -15,13 +15,13 @@ h1 {
     margin-left: 100px;
     line-height: 90px;
     font-size: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Nothing You Could Do', cursive;
     cursor: pointer;
 }
 
 h2 {
     font-size: 28px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 15px;
     
@@ -37,7 +37,7 @@ nav {
 a {
     margin: 0px 25px;
     font-size: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Raleway', sans-serif;
 }
 
 a:link {
@@ -66,9 +66,6 @@ a:enabled {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
-    border-style: inset;
-    border-width: 1px;
-    border-color: black;
 }
 /**********/
 
@@ -91,7 +88,7 @@ i:hover{
 #about {
     width: 800px;
     margin: auto;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     display: block;
     line-height: 25px;
@@ -102,7 +99,7 @@ i:hover{
 #contact {
     width: 800px;
     margin: auto;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     display: block;
 }
