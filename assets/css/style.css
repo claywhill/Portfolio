@@ -66,6 +66,7 @@ a:hover {
 }
 
 .vertical-links {
+    display: inline-block;
     width: 100px;
 }
 
@@ -77,6 +78,15 @@ i {
 
 i:hover {
     color: white;
+}
+
+#about {
+    width: 800px;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    display: block;
+    line-height: 25px;
 }
 
 footer {
