@@ -61,7 +61,7 @@ a:hover {
 }
 
 #dropmenu {
-    font-size: 0px;
+    display: none;
 }
 
 /**********/
@@ -77,10 +77,6 @@ a:hover {
 }
 /**********/
 
-#vertical-links {
-    position: absolute;
-    left: 0;
-}
 
 i {
     color: gray;
@@ -185,7 +181,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     h1 {
-        margin-left: 200px;
+        margin-left: 210px;
     }
 
     nav {
@@ -208,6 +204,33 @@ footer {
 
 @media screen and (max-width: 480px) {
     h1 {
-        margin-left: 8px;
+        margin-left: 70px;
+    }
+
+    #profile {
+        margin: 80px 5px 0px 5px;
+    }
+
+    .vertical-links {
+        position: absolute;
+        top: 70px;
+        left: 160px;
+    }
+
+    li {
+        float: left;
+        width: 50px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    #dropmenu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
     }
 }
