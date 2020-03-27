@@ -60,6 +60,10 @@ a:hover {
     color: white;
 }
 
+#dropmenu {
+    font-size: 0px;
+}
+
 /**********/
 
 /*****HOMEPAGE*****/
@@ -169,4 +173,41 @@ footer {
     bottom: 0;
     text-align: center;
     color: gray;
+}
+
+/*****RESPONSIVE*****/
+@media screen and (max-width: 1024px) {
+   #profile {
+       width: 500px;
+
+   }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        margin-left: 200px;
+    }
+
+    nav {
+        margin-right: 160px;
+    }
+   
+    #profile {
+        width: 500px;
+    }
+
+    #about {
+        width: 600px;
+    }
+
+    #contact {
+        width: 600px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        margin-left: 8px;
+    }
 }
