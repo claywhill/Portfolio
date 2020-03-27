@@ -294,6 +294,11 @@ footer {
     #profile {
         width: 375px;
     }
+
+    footer {
+        margin-top: 50%;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 320px) {
