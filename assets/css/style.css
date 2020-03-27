@@ -164,6 +164,7 @@ input:focus, textarea:focus {
 footer {
     width: 100%;
     height: 25px;
+    font-family: 'Raleway', sans-serif;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -179,15 +180,37 @@ footer {
    }
 }
 
+@media screen and (max-width: 920px) {
+    h1 {
+        margin-left: 290px;
+    }
+
+    nav {
+        position: absolute;
+        top: 60px;
+        left: 230px;
+    }
+
+    #about {
+        width: 700px;
+    }
+
+    #contact {
+        width: 700px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     h1 {
         margin-left: 210px;
     }
 
     nav {
-        margin-right: 160px;
+        position: absolute;
+        top: 60px;
+        left: 155px;
     }
-   
+
     #profile {
         width: 500px;
     }
@@ -208,7 +231,8 @@ footer {
     }
 
     #profile {
-        margin: 80px 5px 0px 5px;
+        margin-top: 78px;
+        padding: 2px;
     }
 
     .vertical-links {
@@ -232,5 +256,67 @@ footer {
         top: 0;
         right: 0;
         padding: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        margin-left: 30px;
+        font-size: 50px;
+    }
+
+    #dropmenu {
+        position: fixed;
+        top: 0px;
+        right: 10px;
+    }
+
+    .vertical-links {
+        position: absolute;
+        top: 70px;
+        left: 100px;
+    }
+
+    #profile {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+
+    h1 {
+        margin-left: 5px;
+        font-size: 45px;
+    }
+    
+    #intro {
+        width: 315px;
+    }
+
+    #profile {
+        width: 315px;
+        margin-right: 5px;
+    }
+    .vertical-links {
+        position: absolute;
+        top: 70px;
+        left: 70px;
+    }
+
+    li {
+        float: left;
+        width: 50px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    #dropmenu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }
