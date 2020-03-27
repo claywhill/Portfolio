@@ -230,11 +230,6 @@ footer {
         margin-left: 70px;
     }
 
-    #profile {
-        margin-top: 78px;
-        padding: 2px;
-    }
-
     .vertical-links {
         position: absolute;
         top: 70px;
@@ -252,10 +247,25 @@ footer {
 
     #dropmenu {
         display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
+        position: fixed;
+        top: 0px;
+        right: 5px;
         padding: 10px;
+    }
+
+    #profile {
+        margin-top: 78px;
+        padding: 2px;
+    }
+
+    h2 {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    h2 {
+        margin-left: 80px;
     }
 }
 
@@ -263,6 +273,10 @@ footer {
     h1 {
         margin-left: 30px;
         font-size: 50px;
+    }
+
+    h2 {
+        margin: 15px 10px;
     }
 
     #dropmenu {
@@ -283,25 +297,19 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
-    
-
     h1 {
-        margin-left: 5px;
+        margin-left: 50px;
         font-size: 45px;
     }
-    
-    #intro {
-        width: 315px;
+
+    h2 {
+        margin-left: 50px;
     }
 
-    #profile {
-        width: 315px;
-        margin-right: 5px;
-    }
     .vertical-links {
         position: absolute;
         top: 70px;
-        left: 70px;
+        left: 100px;
     }
 
     li {
@@ -315,7 +323,7 @@ footer {
 
     #dropmenu {
         display: block;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
     }
