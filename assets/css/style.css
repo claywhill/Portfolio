@@ -222,7 +222,6 @@ footer {
     #contact {
         width: 600px;
     }
-    
 }
 
 @media screen and (max-width: 480px) {
@@ -294,11 +293,6 @@ footer {
     #profile {
         width: 375px;
     }
-
-    footer {
-        margin-top: 50%;
-        position: relative;
-    }
 }
 
 @media screen and (max-width: 320px) {
@@ -308,7 +302,7 @@ footer {
     }
 
     h2 {
-        margin-left: 50px;
+        margin-left: 60px;
     }
 
     .vertical-links {
@@ -331,5 +325,9 @@ footer {
         position: fixed;
         top: 0;
         right: 0;
+    }
+
+    h1:hover nav a {
+        display: block;
     }
 }
