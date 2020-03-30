@@ -266,7 +266,7 @@ footer {
     }
 
     #about {
-        width: 600px;
+        width: 750px;
     }
 
     #contact {
@@ -301,9 +301,55 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-    h2 {
-        margin-left: 80px;
+    h1 {
+        margin-left: 40px;
     }
+
+    nav {
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+
+    nav a {
+        margin: 0px 5px 0px 12px;
+    }
+
+    .vertical-links {
+        position: absolute;
+        top: 70px;
+        left: 120px;
+    }
+
+    #profile {
+        width: 412px;
+    }
+
+    #about {
+        width: 395px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #contact {
+        width: 395px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #portfolio {
+        width: 395px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #gallery {
+        width: 395px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+
 }
 
 @media screen and (max-width: 375px) {
@@ -322,6 +368,16 @@ footer {
         left: 100px;
     }
 
+    nav {
+        position: absolute;
+        top: 100px;
+        left: 25px;
+    }
+
+    nav a {
+        margin: 0px 5px 0px 12px;
+    }
+
     #intro {
         margin-bottom: 50px;
     }
@@ -332,55 +388,136 @@ footer {
 
     #about {
         width: 350px;
-        margin-top: 50px;
+        margin-top: 80px;
         margin-bottom: 50px;
     }
 
     #contact {
-        width: 375px;
-        margin-top: 50px;
+        width: 370px;
+        margin-top: 80px;
         margin-bottom: 50px;
     }
 
     #portfolio {
         width: 375px;
-        margin-top: 50px;
+        margin-top: 80px;
         margin-bottom: 50px;
     }
 
     #gallery {
         width: 375px;
-        margin-top: 50px;
+        margin-top: 80px;
         margin-bottom: 50px;
-    }
-
-    nav a {
-        position: absolute;
-        top: 5px;
-        left: 0px;
-        display: inline;
-        margin: 5px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     h1 {
-        margin-left: 60px;
-        font-size: 45px;
+        margin-left: 40px;
+        font-size: 50px;
     }
 
     h2 {
-        margin-left: 60px;
+        margin: 15px 10px;
     }
 
     .vertical-links {
         position: absolute;
         top: 70px;
-        left: 100px;
+        left: 95px;
     }
 
-    li {
-        float: left;
-        width: 50px;
+    nav {
+        position: absolute;
+        top: 100px;
+        left: 25px;
     }
+
+    nav a {
+        margin: 0px 5px 0px 10px;
+    }
+
+    #intro {
+        margin-bottom: 50px;
+    }
+
+    #profile {
+        width: 358px;
+    }
+
+    #about {
+        width: 350px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #contact {
+        width: 350px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #portfolio {
+        width: 350px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #gallery {
+        width: 350px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        margin-left: 35px;
+        font-size: 45px;
+    }
+
+    .vertical-links {
+        position: absolute;
+        top: 70px;
+        left: 70px;
+    }
+
+    nav {
+        position: absolute;
+        top: 100px;
+        left: 25px;
+    }
+
+    nav a {
+        font-size: 18px;
+        margin: 0px 5px 0px 5px;
+    }
+
+    #profile {
+        width: 318px;
+    }
+
+    #about {
+        width: 310px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #contact {
+        width: 310px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #portfolio {
+        width: 310px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #gallery {
+        width: 310px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    } 
 }
