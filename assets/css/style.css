@@ -102,6 +102,7 @@ i:hover{
     width: 750px;
     height: 600px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -214,6 +215,10 @@ footer {
         width: 700px;
     }
 
+    #portfolio {
+        width: 700px;
+    }
+
     #contact {
         width: 700px;
     }
@@ -231,6 +236,10 @@ footer {
     }
 
     #about {
+        width: 700px;
+    }
+
+    #portfolio {
         width: 700px;
     }
 
@@ -258,8 +267,13 @@ footer {
         width: 750px;
     }
 
+    #porfolio {
+        margin-top: 50px;
+        width: 750px;
+    }
+
     #contact {
-        width: 600px;
+        width: 750px;
     }
 }
 
@@ -282,6 +296,10 @@ footer {
     #profile {
         margin-top: 78px;
         padding: 2px;
+    }
+
+    .card {
+        width: 470px;
     }
 
     h2 {
@@ -330,6 +348,10 @@ footer {
         width: 395px;
         margin-top: 80px;
         margin-bottom: 50px;
+    }
+
+    .card {
+        width: 410px;
     }
 
     #gallery {
@@ -393,6 +415,10 @@ footer {
         margin-bottom: 50px;
     }
 
+    .card {
+        width: 370px;
+    }
+
     #gallery {
         width: 375px;
         margin-top: 80px;
@@ -452,6 +478,10 @@ footer {
         margin-bottom: 50px;
     }
 
+    .card {
+        width: 350px;
+    }
+
     #gallery {
         width: 350px;
         margin-top: 80px;
@@ -502,6 +532,10 @@ footer {
         width: 310px;
         margin-top: 80px;
         margin-bottom: 50px;
+    }
+
+    .card {
+        width: 310px;
     }
 
     #gallery {
