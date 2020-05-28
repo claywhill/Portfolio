@@ -4,6 +4,7 @@ body {
     background-color: black;
     color: white;
     overflow-x: hidden;
+    margin-bottom: 30px;
 }
 
 header {
@@ -195,6 +196,7 @@ footer {
     bottom: 0;
     text-align: center;
     color: gray;
+    margin-top: 30px;
 }
 
 /*****RESPONSIVE*****/
