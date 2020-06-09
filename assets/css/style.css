@@ -118,6 +118,10 @@ i:hover{
     border-width: 5px;
 }
 
+.card img {
+    display: block;
+}
+
 .card-body {
     background-color: black;
 }
